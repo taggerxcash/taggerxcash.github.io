@@ -3,6 +3,7 @@
 @import 'reset';
 @import 'libs';
 @import 'global';
+@import 'responsive';
 
 .no-scroll{
   overflow-y: hidden;
@@ -12,7 +13,7 @@
 
 .header{
   .container{
-    max-width: 1800px;
+    max-width: 112.5rem;
   }
 }
 
@@ -22,9 +23,9 @@
   justify-content: space-between;
   align-items: center;
   font-family: 'Courier New', arial;
-  font-size: 32px;
+  font-size: 2rem;
   &__list-item{
-    padding-left: 100px;
+    padding-left: 6.25rem;
     display: inline-block;
   }
   &__list-link{
@@ -49,29 +50,29 @@
     color: #fff;
     padding-top: 35vh;
     &-title{
-      font-size: 72px;
+      font-size: 4.5rem;
     }
     &-link{
-      font-size: 42px;
+      font-size: 2.625rem;
       cursor: pointer;
       -webkit-text-stroke: 1.1px black;
-      width: 420px;
+      width: 26.25rem;
       text-align: center;
       transition: .2s ease;
       &:hover{
-        font-size: 43px;
+        font-size: 2.7rem;
         transition: .2s ease;
         &:after{
-          margin-top: 5px;
+          margin-top: .31rem;
           transition: .2s all;
         }
       }
       &:after{
         content: '';
-        height: 2px;
+        height: .13rem;
         background: #fff;
         display: block;
-        margin-top: 3px;
+        margin-top: .19rem;
         transition: .2s all;
       }
     }
@@ -83,17 +84,17 @@
 .footer{
   background-color: #f7d794;
   .container{
-    max-width: 1800px;
+    max-width: 112.5rem;
   }
 }
 
 .firstrow{
   display: flex;
   justify-content: space-between;
-  padding-top: 86px;
-  font-size: 48px;
+  padding-top: 5.38rem;
+  font-size: 3rem;
   &__logo{
-    width: 300px;
+    width: 18.75rem;
     img{
       width: 100%;
     }
@@ -103,43 +104,43 @@
 .secondrow{
   display: flex;
   justify-content: space-between;
-  padding: 86px 0;
-  font-size: 36px;
+  padding: 5.38rem 0;
+  font-size: 2.25rem;
   &__contacts-item{
     display: inline-block;
-    padding-right: 22px;
+    padding-right: 1.38rem;
   }
 }
 
 //Description
 .desc{
   .container{
-    max-width: 1600px;
+    max-width: 100rem;
   }
   &__inner{
     display: flex;
     justify-content: space-between;
-    margin: 10vh 0 8vh;
+    margin: 7rem 0;
     &__text{
-      width: 45vw;
+      width: 50rem;
       text-align: right;
       &-slogan{
         font-family: 'Courier New', arial;
-        font-size: 80px;
+        font-size: 5rem;
         font-weight: 400;
       }
       &-title{
         font-family: 'Courier New', arial;
-        font-size: 48px;
-        padding: 5vh 0 5vh 5vw;
+        font-size: 3rem;
+        padding: 5rem 0 5rem 5rem;
       }
       &-link{
         color: #fa983a;
-        font-size: 36px;
+        font-size: 2.25rem;
         cursor: pointer;
         transition: .2s all;
         &:hover{
-          font-size: 38px;
+          font-size: 2.38rem;
           transition: .2s ease;
         }
       }
@@ -151,38 +152,38 @@
 
 .catalog{
   .container{
-    max-width: 1400px;
+    max-width: 87.5rem;
   }
 }
 
 .catalog-title{
   font-family: 'Courier New', arial;
-  font-size: 90px;
+  font-size: 5.63rem;
   text-align: center;
   font-weight: 400;
-  padding: 5vh 0;
+  padding: 3rem 0;
 }
 
 .catalog__inner__section{
   &-title{
     font-family: 'Courier New', arial;
-    font-size: 72px;
+    font-size: 4.5rem;
     text-align: center;
   }
   &__blocks{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    font-size: 24px;
-    padding: 10vh 0;
+    font-size: 1.5rem;
+    padding: 8rem 0;
     flex-wrap: wrap;
     &__item{
       width: calc(100% * (1/3) - 5%);
       text-align: right;
-      margin-bottom: 13vh;
+      margin-bottom: 10rem;
       cursor: pointer;
       &-name{
-        padding: 5px 0;
+        padding: .31rem 0;
       }
       &-cost{
         font-weight: 700;
@@ -230,23 +231,23 @@
     text-align: center;
     height: 100%;
     &-name{
-      font-size: 40px;
+      font-size: 2.5rem;
       font-weight: 700;
       margin-top: 20vh;
     }
     &-price{
       font-weight: 700;
-      font-size: 24px;
+      font-size: 1.5rem;
       color: #7F8C8D;
       margin-bottom: 20vh;
     }
     &-button{
-      font-size: 20px;
+      font-size: 1.25rem;
       cursor: pointer;
-      padding: 8px 24px;
+      padding: .5rem 1.5rem;
       border: 2px solid;
       color: #43A047;
-      border-radius: 20px;
+      border-radius: 1.25rem;
       text-transform: uppercase;
       font-weight: 700;
       transition: .2s linear;
