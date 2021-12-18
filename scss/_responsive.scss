@@ -36,14 +36,30 @@
   html{
     font-size: 10px;
   }
+  .menu{
+    height: 15vh !important;
+    flex-direction: column;
+    font-size: 2.8rem !important;
+  }
+  .menu__logo{
+    padding-top: 2.5rem;
+  }
+  .menu__list{
+    padding-bottom: 1rem !important;
+  }
+  .header-cover{
+    height: 85vh;
+  }
 }
 
 @media only screen and (max-width: 480px){
   html{
     font-size: 8px;
   }
-  .menu{
-    height: 15vh !important;
+  .secondrow__contacts-item{
+    height: 4rem;
+    width: 4rem;
+    padding-right: .78rem !important;
   }
 }
 
