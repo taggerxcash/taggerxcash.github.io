@@ -2,29 +2,53 @@
   html{
     font-size: 14px;
   }
-  .desk__inner{
-    text-align: center;
+  .desc__inner{
+    display: block !important;
   }
   .desc__inner-photo{
     display: none;
   }
+  .desc__inner__text{
+    text-align: center !important;
+    width: 70% !important;
+    margin: 0 auto;
+  }
   .desc__inner__text-title{
-    margin: 0 0;
+    padding: 3rem 0 !important;
+  }
+  .catalog{
+    .container{
+      max-width: 60rem !important;
+    }
+  }
+  .catalog__inner__section__blocks__item{
+    width: calc(100% * (1/2) - 5%) !important;
   }
 }
 
 @media only screen and (max-width: 992px){
-  
+  html{
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 768px){
-  
+  html{
+    font-size: 10px;
+  }
 }
 
 @media only screen and (max-width: 480px){
-  
+  html{
+    font-size: 8px;
+  }
+  .menu{
+    height: 15vh !important;
+  }
 }
 
 @media only screen and (max-width: 320px){
-  
+  html{
+    font-size: 6px;
+  }
 }
